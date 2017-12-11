@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrimeNumber {
+public class CheckPrimeNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,7 +22,7 @@ public class PrimeNumber {
 			}
 			}
 			if (isprime)
-				System.out.println(number + "" + " is a prime number");
+				System.out.println(number + " " + " is a prime number");
 			else
 				System.out.println(number + "" + "is not a prime");
 }
